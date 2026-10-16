@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="GIS Portfolio - Mohamed Al-Habbash specializing in Web GIS, Cartography, Remote Sensing, and Spatial Analysis.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Al-Habbash | GIS Portfolio</title>
+    
+    <noscript>
+    <style>
+    .section-eyebrow, .section-title, .section-intro, .service-card,
+    .slide, .course-slide, .tool-slide, .about-image-wrapper,
+    .about-image-wrapper + div, .contact-form, .works-header, .tools-header {
+      opacity: 1 !important;
+    }
+    </style>
+    </noscript>
+    <link rel="icon" type="image/webp" href="img/earth.webp">
+
+     <!--  font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+     
+     <!-- css files -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/brands.min.css">
+    <link rel="stylesheet" href="css/solid.min.css">
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-container">
+        <div class="logo">
+          <span class="logo-mark"></span>
+          <span class="logo-text">GIS Portfolio</span>
+        </div>
+
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#about" data-i18n="nav-about">About me</a></li>
+            <li><a href="#works" data-i18n="nav-works">My Projects</a></li>
+            <li><a href="#courses" data-i18n="nav-courses">Courses & Certification</a></li>
+            <li><a href="#services" data-i18n="nav-services">My Services</a></li>
+            <li><a href="#contact" data-i18n="nav-contact">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+
+          <button class="language-toggle" id="language-toggle" aria-label="Switch language">
+            <span class="language-label">AR</span>
+          </button>
+          
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero / Intro -->
+      <section class="hero" id="top">
+        <div class="container hero-container">
+          <div class="hero-text">
+            <h1 data-i18n="hero-heading"><span class="gis-highlight">GIS&nbsp;</span>Makes&nbsp; Life &nbsp;Better</h1>
+            <h2 class="hero-subtitle" data-i18n="hero-subtitle">Smart maps Better decisions.</h2>
+            <a href="#works" class="btn primary-btn" data-i18n="hero-cta">View My Projects</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="container section-grid">
+          <div class="about-image-wrapper">
+            <img src="img/man.jpg" alt="About me" class="about-image" loading="lazy" />
+          </div>
+          <div>
+            <p class="section-eyebrow" data-i18n="about-eyebrow">About</p>
+            <h2 class="section-title" data-i18n="about-title">About me</h2>
+            <p class="section-intro" data-i18n="about-intro">
+            I am Mohamed, a GIS specialist focused on web mapping, cartography, and spatial analysis.
+            I work with geographic data to support informed decision-making and provide better spatial insights.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Projects -->
+      <section id="works" class="section alt-section works-section">
+        <div class="container">
+          <div class="works-header">
+            <p class="section-eyebrow" data-i18n="works-eyebrow">Projects</p>
+            <h2 class="section-title works-title" data-i18n="works-title">My Projects</h2>
+            <p class="section-intro works-intro" data-i18n="works-intro">
+              A selection of GIS projects focused on spatial analysis and mapping.
+            </p>
+          </div>
+
+          <div class="works-slider">
+            <div class="slider-main">
+              <button
+                class="slider-btn slider-btn-prev"
+                type="button"
+                aria-label="Previous project"
+              >
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <div class="slider-viewport">
+                <div class="slider-track">
+                  <a
+                    class="slide active"
+                    data-slide="0"
+                    href="https://www.google.com"
+                  >
+                    <div class="slide-content-wrapper">
+                      <div class="slide-image-wrapper">
+                        <img src="img/leb_Mocup.webp" alt="Lebanon Service Analysis" class="slide-image"  loading="lazy" />
+                      </div>
+                      <div class="slide-text-content">
+                        <h3 class="slide-title" data-i18n="slide-0-title">Lebanon Service Analysis</h3>
+                        <p class="slide-description" data-i18n="slide-0-description">The surface analysis of Lebanon includes elevations, slopes, and their directions, along with visibility and other analyses.</p>
+                        <div class="slide-tags">
+                          <span class="slide-tag" data-i18n="slide-0-tag-1">ArcGIS</span>
+                          <span class="slide-tag" data-i18n="slide-0-tag-2"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                         
+                  <!--  دليل الخدمات الطبية -->
+                  <a
+                    class="slide"
+                    data-slide="1"
+                    href="https://mohdah2000.github.io/Medical-Services---Gaza-Strip/"
+                  >
+                    <div class="slide-content-wrapper">
+                      <div class="slide-image-wrapper">
+                        <img src="img/Dashboard.webp" alt="Medical services gaza strip" class="slide-image"  loading="lazy" />
+                      </div>
+                      <div class="slide-text-content">
+                        <h3 class="slide-title" data-i18n="slide-1-title">Medical services gaza strip</h3>
+                        <p class="slide-description" data-i18n="slide-1-description">displays medical services in the Gaza Strip to facilitate their presentation and interaction in a spatial setting.</p>
+                        <div class="slide-tags">
+                          <span class="slide-tag" data-i18n="slide-1-tag-1">Web App</span>
+                          <span class="slide-tag" data-i18n="slide-1-tag-2">Dashboard</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <!-- التحليل الشبكي في المحافظة الوسطى  -->
+                  <a
+                    class="slide"
+                    data-slide="2"
+                    href="https://arcg.is/1Cz0840"
+                  >
+                    <div class="slide-content-wrapper">
+                      <div class="slide-image-wrapper">
+                        <img src="img/network.webp" alt="Network analysis - Gaza Strip" class="slide-image"  loading="lazy" />
+                      </div>
+                      <div class="slide-text-content">
+                        <h3 class="slide-title" data-i18n="slide-2-title">Network analysis - central governorate in the Gaza Strip</h3>
+                        <p class="slide-description" data-i18n="slide-2-description">Spatial analysis of the network infrastructure in the central governorate of the Gaza Strip.</p>
+                        <div class="slide-tags">
+                          <span class="slide-tag" data-i18n="slide-2-tag-1">Network Analysis</span>
+                          <span class="slide-tag" data-i18n="slide-2-tag-2">Spatial Analysis</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+
+                   <!-- التغير الارضي في قطاع غزة -->
+                  <a
+                    class="slide"
+                    data-slide="3"
+                   href="https://arcg.is/1CD9581" 
+                  >
+                    <div class="slide-content-wrapper">
+                      <div class="slide-image-wrapper">
+                        <img src="img/lulc.webp" alt="Land Use/Land Cover Analysis" class="slide-image"  loading="lazy" />
+                      </div>
+                      <div class="slide-text-content">
+                        <h3 class="slide-title" data-i18n="slide-3-title">Land Use/Land Cover Analysis 2023 & 2025</h3>
+                        <p class="slide-description" data-i18n="slide-3-description">Deep-dive spatial analysis of land cover classifications using advanced GIS techniques and satellite data interpretation.</p>
+                        <div class="slide-tags">
+                          <span class="slide-tag" data-i18n="slide-3-tag-1">LULC</span>
+                          <span class="slide-tag" data-i18n="slide-3-tag-2">Analysis</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <button
+                class="slider-btn slider-btn-next"
+                type="button"
+                aria-label="Next project"
+              >
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <div class="slider-dots" aria-label="Select project slide">
+              <button
+                class="slider-dot active"
+                type="button"
+                data-slide="0"
+                data-i18n-aria="slide-0-aria"
+              ></button>
+              <button
+                class="slider-dot"
+                type="button"
+                data-slide="1"
+                data-i18n-aria="slide-1-aria"
+              ></button>
+              <button
+                class="slider-dot"
+                type="button"
+                data-slide="2"
+                data-i18n-aria="slide-2-aria"
+              ></button>
+              <button
+                class="slider-dot"
+                type="button"
+                data-slide="3"
+                data-i18n-aria="slide-3-aria"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Courses & Certification -->
+      <section id="courses" class="section">
+        <div class="container">
+          <p class="section-eyebrow" data-i18n="courses-eyebrow">Education</p>
+          <div class="section-header">
+            <h2 class="section-title" data-i18n="courses-title">Courses &amp; Certification</h2>
+          </div>
+
+          <div class="courses-slider">
+            <div class="courses-slider-main">
+              <button
+                class="courses-slider-btn courses-slider-btn-prev"
+                type="button"
+                aria-label="Previous course"
+              ><i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <div class="courses-slider-viewport">
+                <div class="courses-slider-track">
+                  <article class="course-slide active">
+                    <div class="course-certificate">
+                      <img src="img/esriCer.webp" alt="GIS Certificate" class="certificate-image"  loading="lazy"/>
+                    </div>
+                    <h3 class="course-title" data-i18n="course-0-title">Using GIS to Solve Problems</h3>
+                    <p class="course-description" data-i18n="course-0-description">
+                      Hands‑on course focused on applying spatial thinking and GIS
+                      tools to real‑world decision‑making problems.
+                    </p>
+                  </article>
+
+                  <article class="course-slide">
+                    <div class="course-certificate">
+                      <img src="img/ArcGisOnlineCert.webp" alt="ArcGIS Online Basics Certificate" class="certificate-image"  loading="lazy"/>
+                    </div>
+                    <h3 class="course-title" data-i18n="course-1-title">ArcGIS Online Basics</h3>
+                    <p class="course-description" data-i18n="course-1-description">Covers the basic concepts in ArcGS online, along with some practical aspects that enhanced understanding.
+                    </p>
+                  </article>
+
+                  <article class="course-slide">
+                    <div class="course-certificate">
+                      <img src="img/ImageryMOOC.webp" alt="ArcGIS Imagery MOOC Certificate" class="certificate-image"  loading="lazy" />
+                    </div>
+                    <h3 class="course-title" data-i18n="course-3-title">ArcGIS Imagery MOOC</h3>
+                    <p class="course-description" data-i18n="course-3-description">
+                       teaches you how to manage, analyze, and visualize drone, satellite, and aerial imagery using advanced GIS and AI technologies.
+                    </p>
+                  </article>
+
+                  <article class="course-slide">
+                    <div class="course-certificate">
+                      <img src="img/englishCer.webp" alt="English Certificate" class="certificate-image"  loading="lazy" />
+                    </div>
+                    <h3 class="course-title" data-i18n="course-2-title">English Conversational Skills</h3>
+                    <p class="course-description" data-i18n="course-2-description">
+                      Successfully completed English Conversational Skills for Beginners,
+                      covering basics of English conversation skills.
+                    </p>
+                  </article>
+
+                </div>
+              </div>
+
+              <button
+                class="courses-slider-btn courses-slider-btn-next"
+                type="button"
+                aria-label="Next course"
+              >
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <div class="courses-slider-dots" aria-label="Select course slide">
+              <button
+                class="courses-slider-dot active"
+                type="button"
+                data-slide="0"
+                data-i18n-aria="course-0-aria"
+              ></button>
+              <button
+                class="courses-slider-dot"
+                type="button"
+                data-slide="1"
+                data-i18n-aria="course-1-aria"
+              ></button>
+              <button
+                class="courses-slider-dot"
+                type="button"
+                data-slide="2"
+                data-i18n-aria="course-2-aria"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Services -->
+      <section id="services" class="section alt-section">
+        <div class="container">
+          <p class="section-eyebrow" data-i18n="services-eyebrow">Services</p>
+          <div class="section-header">
+            <h2 class="section-title" data-i18n="services-title">My Services</h2>
+          </div>
+         
+
+          <div class="cards-grid services-grid">
+            <article class="service-card">
+              <h3 class="service-title" data-i18n="service-0-title"> Cartography</h3>
+              <p class="service-description" data-i18n="service-0-description">
+                Designing clear, accurate, and visually effective maps that communicate geographic information and spatial patterns.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <h3 class="service-title" data-i18n="service-1-title"> Remote Sensing</h3>
+              <p class="service-description" data-i18n="service-1-description">
+                Analyzing satellite and remote sensing data to extract meaningful information, monitor change, and support spatial analysis.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <h3 class="service-title" data-i18n="service-2-title"> Python for GIS</h3>
+              <p class="service-description" data-i18n="service-2-description">
+                Using Python to automate GIS workflows, process spatial data, and improve analysis efficiency.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <h3 class="service-title" data-i18n="service-3-title"> Geospatial Data Processing</h3>
+              <p class="service-description" data-i18n="service-3-description">
+                Preparing, cleaning, and managing geospatial data to ensure accuracy and reliable analytical results.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <h3 class="service-title" data-i18n="service-4-title"> Spatial Data Visualization</h3>
+              <p class="service-description" data-i18n="service-4-description">
+                Transforming complex spatial data into clear visual outputs that support understanding and decision-making.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <h3 class="service-title" data-i18n="service-5-title">Web Map Development</h3>
+              <p class="service-description" data-i18n="service-5-description">
+                Designing and developing interactive web maps that present spatial data clearly and support exploration and decision-making.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- The Programm  -->
+      <!-- GIS Tools & Platforms -->
+      <section class="section tools-section">
+        <div class="container">
+          <div class="tools-header">
+            <p class="section-eyebrow" data-i18n="tools-eyebrow">Programmes & Platforms</p>
+            <h2 class="section-title" data-i18n="tools-title"><span class="Exp-higlight">Experienced</span> with leading GIS tools and platforms</h2>
+          </div>
+
+          <div class="tools-slider">
+            <div class="slider-main">
+              <button
+                class="slider-btn slider-btn-prev"
+                type="button"
+                aria-label="Previous tool"
+              >
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <div class="slider-viewport">
+                <div class="slider-track tools-track">
+                  <div class="tool-slide">
+                    <div class="tool-logo-wrapper">
+                      <img src="img/qgis.png" alt="QGIS" loading="lazy" />
+                    </div>
+                  </div>
+
+                  <div class="tool-slide">
+                    <div class="tool-logo-wrapper">
+                      <img src="img/AutoCad.webp" alt="AutoCAD" loading="lazy" />
+                    </div>
+                  </div>
+
+                  <div class="tool-slide">
+                    <div class="tool-logo-wrapper">
+                      <img src="img/erdas.webp" alt="ERDAS IMAGINE" loading="lazy" />
+                    </div>
+                  </div>   
+
+                  <div class="tool-slide">
+                    <div class="tool-logo-wrapper">
+                      <img src="img/web.webp" alt="WebLanguage" loading="lazy" />
+                    </div>
+                  </div>    
+
+                  <div class="tool-slide">
+                    <div class="tool-logo-wrapper">
+                      <img src="img/ArcPro.png" alt="ArcGIS Pro" loading="lazy" />
+                    </div>
+                  </div>
+
+                   <div class="tool-slide">
+                    <div class="tool-logo-wrapper">
+                      <img src="img/GeoDB.webp" alt="WebLanguage" loading="lazy" />
+                    </div>
+                  </div>  
+
+                  <div class="tool-slide">
+                    <div class="tool-logo-wrapper">
+                      <img src="img/powerbi.webp" alt="PowerBI" loading="lazy" />
+                    </div>
+                  </div>
+
+                  <div class="tool-slide">
+                    <div class="tool-logo-wrapper">
+                      <img src="img/ArcGisOnline.png" alt="ArcGIS Online" loading="lazy" />
+                    </div>
+                  </div>
+
+                  <div class="tool-slide">
+                    <div class="tool-logo-wrapper">
+                      <img src="img/GeoServer.png" alt="GeoServer" loading="lazy" />
+                    </div>
+                  </div>  
+
+                  <div class="tool-slide">
+                    <div class="tool-logo-wrapper">
+                      <img src="img/GEE.png" alt="Google Earth Engine" loading="lazy" />
+                    </div>
+                  </div>
+
+                    <div class="tool-slide">
+                    <div class="tool-logo-wrapper">
+                      <img src="img/OfficeFamily.png" alt="Office Family" loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                class="slider-btn slider-btn-next"
+                type="button"
+                aria-label="Next tool"
+              >
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+      <!-- Contact / Location -->
+      <section id="contact" class="section contact-section">
+        <div class="container contact-grid">
+          <div>
+            <p class="section-eyebrow" data-i18n="contact-eyebrow">Contact</p>
+            <h2 class="section-title" data-i18n="contact-title">Have a question or want to work together?</h2>
+            <p class="section-intro" data-i18n="contact-intro">
+             Let’s build something useful with GIS
+            </p>
+
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <h3 data-i18n="contact-location-title">Location</h3>
+                  <p data-i18n="contact-location-value">Gaza - Palestine</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <h3 data-i18n="contact-email-title">Email</h3>
+                  <p>mhabbash1111@gmail.com</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/mohd-ah-78b900361/" class="linkedin" aria-label="LinkedIn"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/MohdAh2000?tab=repositories" class="github" aria-label="GitHub"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.facebook.com/farahat.alhabbash/directory_intro" class="facebook" aria-label="Facebook"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+          </div>
+
+          <div>
+            <form 
+            class="contact-form" 
+            id="contact-form" 
+            action="https://formspree.io/f/xvzezjbp"
+            method="POST"
+            >
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" data-i18n="form-name-label">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    data-i18n-placeholder="form-name-placeholder"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email" data-i18n="form-email-label">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="you@example.com"
+                    data-i18n-placeholder="form-email-placeholder"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" data-i18n="form-subject-label">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Project, question, or collaboration idea"
+                  data-i18n-placeholder="form-subject-placeholder"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message" data-i18n="form-message-label">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Tell me more about your project or question..."
+                  data-i18n-placeholder="form-message-placeholder"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn primary-btn full-width" data-i18n="form-submit">Send message</button>
+              <p class="form-status" id="form-status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-container">
+        <p class="footer-text" data-i18n="footer-text">
+          Make your life better &amp; easier by using GIS.
+        </p>
+        <p class="footer-meta" data-i18n="footer-meta">
+          © <span id="year"></span> Created by
+          <span class="footer-name">❤️ Mohamed Al-Habbash</span> | All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
